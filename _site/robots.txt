@@ -1,1 +1,1 @@
-Sitemap: https://r-journalism.github.io/chjr/sitemap.xml
+Sitemap: https://r-journalism.github.io/au-r/sitemap.xml
