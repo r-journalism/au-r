@@ -8,6 +8,7 @@ webr:
     - dplyr
     - lubridate
     - gradethis
+    - curl
 resources:
   - images
 ---
@@ -23,7 +24,9 @@ resources:
 library(readr)
 library(dplyr)
 library(lubridate)
-df <- read_csv("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
+#df <- read_csv("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
+df <- read_csv("data/DisasterDeclarationsSummaries.csv")
+
 
 incident_types <- count(df, incidentType, name="total")
 incident_types_arranged <- arrange(incident_types, desc(total))

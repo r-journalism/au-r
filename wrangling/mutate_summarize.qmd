@@ -11,6 +11,7 @@ webr:
     - gradethis
     - readxl
     - janitor
+    - curl
     - gradethis
 resources:
   - images

@@ -19,6 +19,7 @@ webr:
     - readxl
     - DT
     - janitor
+    - curl
 resources:
   - images
   - data

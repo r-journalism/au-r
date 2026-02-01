@@ -5,6 +5,7 @@ format: live-html
 webr:
   packages:
     - dplyr
+    - curl
 resources:
   - images
 ---

@@ -15,6 +15,7 @@ webr:
     - gradethis
     - DT
     - knitr
+    - curl
 resources:
   - images
   - data
