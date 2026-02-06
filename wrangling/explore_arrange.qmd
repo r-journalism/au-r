@@ -112,7 +112,6 @@ library(lubridate)
 
 # this is what we have to run in the browerser to make this work
 df <- _________("data/DisasterDeclarationsSummaries.csv")
-
 ```
 
 
