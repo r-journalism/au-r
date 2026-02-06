@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://r-journalism.github.io/au-r/getting_started/importing_exporting.html</loc>
-    <lastmod>2025-10-08T00:09:36.000Z</lastmod>
+    <lastmod>2026-02-06T15:08:32.154Z</lastmod>
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/getting_started/1_intro_a.html</loc>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/wrangling/filter_select.html</loc>
-    <lastmod>2026-02-01T19:05:45.855Z</lastmod>
+    <lastmod>2026-02-06T15:05:11.766Z</lastmod>
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/wrangling/index.html</loc>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/visualizing/viz.html</loc>
-    <lastmod>2026-02-01T19:06:23.087Z</lastmod>
+    <lastmod>2026-02-06T15:07:29.113Z</lastmod>
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/index.html</loc>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/tidying/joining.html</loc>
-    <lastmod>2026-02-01T19:06:00.329Z</lastmod>
+    <lastmod>2026-02-06T15:06:29.002Z</lastmod>
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/tidying/math_pivots.html</loc>
@@ -58,11 +58,11 @@
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/wrangling/mutate_summarize.html</loc>
-    <lastmod>2026-02-01T19:05:41.092Z</lastmod>
+    <lastmod>2026-02-06T15:05:28.597Z</lastmod>
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/wrangling/explore_arrange.html</loc>
-    <lastmod>2026-02-01T19:04:20.516Z</lastmod>
+    <lastmod>2026-02-06T15:04:18.931Z</lastmod>
   </url>
   <url>
     <loc>https://r-journalism.github.io/au-r/importing/importing_excel.html</loc>
