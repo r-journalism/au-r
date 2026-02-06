@@ -11,6 +11,7 @@ webr:
     - curl
 resources:
   - images
+  - data
 ---
 
 
@@ -18,7 +19,7 @@ resources:
 {{< include ../_extensions/r-wasm/live/_gradethis.qmd >}}
 
 
-```{webr}
+```{webr importing}
 #| include: false
 
 library(readr)
@@ -96,7 +97,7 @@ You can download it and import it locally, but if it's a csv, you can just link 
 Use the function from the **readr** package to import the csv from the URL. (This will take several moments to download, it's a big file)
 
 
-```
+```{webr import}
 library(dplyr)
 library(readr)
 library(lubridate)
