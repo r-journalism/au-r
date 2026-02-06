@@ -96,42 +96,7 @@ You can download it and import it locally, but if it's a csv, you can just link 
 Use the function from the **readr** package to import the csv from the URL. (This will take several moments to download, it's a big file)
 
 
-
-::: {.panel-tabset}
-
-## Exercise
-
 ```{webr}
-#| exercise: ea1
-library(dplyr)
-library(readr)
-library(lubridate)
-
-# this is what you would run in your RStudio app
-#df <- ________("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
-
-# this is what we have to run in the browerser to make this work
-df <- _________("data/DisasterDeclarationsSummaries.csv")
-```
-
-
-## Hint
-
-::: { .hint exercise="ea1"}
-
-function starts with an *r*.
-two words separated with a "_"
-
-:::
-
-## Solution
-
-::: { .solution exercise="ea1"}
-
-
-```{webr importing-solution}
-#| exercise: ea1
-#| solution: true
 library(dplyr)
 library(readr)
 library(lubridate)
@@ -143,15 +108,6 @@ library(lubridate)
 df <- read_csv("data/DisasterDeclarationsSummaries.csv")
 ```
 
-
-```{webr importing-grade}
-#| exercise: ea1
-#| check: true
-gradethis::grade_this_code()
-```
-:::
-
-:::::
 
 
 ## Exploring steps
