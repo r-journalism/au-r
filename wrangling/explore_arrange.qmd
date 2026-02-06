@@ -103,8 +103,10 @@ library(readr)
 library(lubridate)
 
 # this won't work in the browser but will work when you run it in your RStudio
-df <- read_csv("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
+#df <- read_csv("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
 
+# this will work
+df <- read_csv("data/DisasterDeclarationsSummaries.csv")
 # the next chunks of code will work even if this one doesn't.
 ```
 
