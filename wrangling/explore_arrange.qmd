@@ -101,11 +101,10 @@ library(dplyr)
 library(readr)
 library(lubridate)
 
-# this is what you would run in your RStudio app
-#df <- ________("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
+# this won't work in the browser but will work when you run it in your RStudio
+df <- read_csv("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
 
-# this is what we have to run in the browerser to make this work
-df <- read_csv("data/DisasterDeclarationsSummaries.csv")
+# the next chunks of code will work even if this one doesn't.
 ```
 
 
