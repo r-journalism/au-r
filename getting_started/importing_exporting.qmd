@@ -59,8 +59,9 @@ Click `RUN CODE` to import the data from a  website and look at the first 10 row
 ```{webr}
 #df_csv <- read.csv("https://data.ct.gov/api/views/rybz-nyjw/rows.csv?accessType=DOWNLOAD&api_foundry=true", stringsAsFactors=F)
 
-df <- read.csv("https://www.andrewbatran.com/data/Admissions_to_DMHAS_Addiction_Treatment_by_Town__Year__and_Month.csv", stringsAsFactors=F)
+#df <- read.csv("https://www.andrewbatran.com/data/Admissions_to_DMHAS_Addiction_Treatment_by_Town__Year__and_Month.csv", stringsAsFactors=F)
 
+df <- read.csv("data/Admissions_to_DMHAS_Addiction_Treatment_by_Town__Year__and_Month.csv", stringsAsFactors=F)
 
 head(df_csv, 10)
 ```
@@ -98,7 +99,10 @@ Just like before, except instead of the URL, it's the name of the file.
 ## If you don't have readr installed yet, uncomment and run the line below
 #install.packages("readr")
 library(readr)
-df_csv <- read_csv("https://www.andrewbatran.com/data/Admissions_to_DMHAS_Addiction_Treatment_by_Town__Year__and_Month.csv")
+#df_csv <- read_csv("https://www.andrewbatran.com/data/Admissions_to_DMHAS_Addiction_Treatment_by_Town__Year__and_Month.csv")
+
+df_csv <- read_csv("data/Admissions_to_DMHAS_Addiction_Treatment_by_Town__Year__and_Month.csv")
+
 
 ```
 

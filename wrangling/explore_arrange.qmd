@@ -107,8 +107,12 @@ library(dplyr)
 library(readr)
 library(lubridate)
 
-#https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2
-df <- ________("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
+# this is what you would run in your RStudio app
+#df <- ________("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
+
+# this is what we have to run in the browerser to make this work
+df <- _________("data/DisasterDeclarationsSummaries.csv")
+
 ```
 
 
@@ -133,8 +137,11 @@ library(dplyr)
 library(readr)
 library(lubridate)
 
-#https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2
-df <- read_csv("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
+# this is what you would run in your RStudio app
+#df <- ________("https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv")
+
+# this is what we have to run in the browerser to make this work
+df <- read_csv("data/DisasterDeclarationsSummaries.csv")
 ```
 
 
